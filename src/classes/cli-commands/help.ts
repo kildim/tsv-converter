@@ -12,7 +12,7 @@ class Help implements CliCommandInterface{
     При вызове программы возможно применение следующих ключей:
       --version -- вывод версии программы;
       --help -- вывод справки.
-      --import -- импорт tsv файла 
+      --cp1251 -- импорт tsv файла в кодировке windows-1251 
     `
     console.log(hint);
   }

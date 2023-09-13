@@ -6,7 +6,7 @@ type ParsedCommand = {
 
 class CliCommandsManager {
   private commands: {[propertyName: string]: CliCommandInterface} = {};
-  private defaultCommand = '--convert';
+  private defaultCommand = '--help';
 
   registerCommands(commandsList: CliCommandInterface[]): void {
     commandsList.reduce((acc, command) => {
