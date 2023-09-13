@@ -7,7 +7,7 @@ class Help implements CliCommandInterface{
     const hint = `
     В качестве первого аргумента указывайте путь к файлу-источнику, вторым аргументом является путь к файлу-назначению.
       Образец: 
-      csv-to-json ./source.csv ./destination.json
+      tsv-converter ./source.tsv
     
     При вызове программы возможно применение следующих ключей:
       --version -- вывод версии программы;
