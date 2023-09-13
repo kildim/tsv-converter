@@ -30,9 +30,9 @@
   <h3 align="center">TSV Converter</h3>
 
   <p align="center">
-    Консольное приложение Node JS. Приложение генерирует файл в формате JSON из файла форматк CSV.
+    Консольное приложение Node JS. Приложение генерирует файл в формате JSON из файла симейства форматов CSV.
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kildim/tsv-converter/tree/readme"><strong>Документация »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
@@ -82,6 +82,7 @@
 * работа с файловой системой посредством `NodeJS`;
 * конфигурирование экосистемы для создания проектов на `NodeJS`
 
+Целью создания проекта так же является создание кода-песочницы для ознакомления и экспериментов с кодом и реализацией соответствующего функционала.
 <p align="right">(<a href="#readme-top">в начало</a>)</p>
 
 
@@ -202,8 +203,10 @@ Don't forget to give the project a star! Thanks again!
 <!-- ACKNOWLEDGMENTS -->
 ## Благодарности
 
+* [![Img Shields](https://img.shields.io/badge/Shield.io-3178C6?logo=shieldsdotio&logoColor=fff&style=flat-square)](https://shields.io/ )<br/>Помог оформить этот файл README.md
 * [![ts-node Badge](https://img.shields.io/badge/ts--node-3178C6?logo=tsnode&logoColor=fff&style=flat-square)](https://www.npmjs.com/package/ts-node) <br/> Позволяет запускать код TS без предварительной компиляции.
 * [![Rimraf Badge](https://img.shields.io/badge/Rimraf-3178C6?logo=npm&logoColor=fff&style=flat-square)](https://www.npmjs.com/package/rimraf) <br/> Предоставляет возможность очищать директорию `dist` из сценаря `clean` в `package.json` на компьютере разработчика, который может работать под различными ОС.
+* [![iConv-lite](https://img.shields.io/badge/iConv--lite-3178C6?logo=npm&logoColor=fff&style=flat-square)](https://www.npmjs.com/package/iconv-lite)<br/> Позволяет работать с текстовыми файлами в различных кодировках.
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
