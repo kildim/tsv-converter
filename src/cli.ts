@@ -9,7 +9,7 @@ const myManager = new CliCommandsManager();
 myManager.registerCommands([
   new Help,
   new Version,
-  new Cp1251
+  new Cp1251,
 ]);
 
 myManager.processCommand(process.argv);
