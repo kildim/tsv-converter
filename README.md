@@ -27,7 +27,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">CSV to JSON</h3>
+  <h3 align="center">TSV Converter</h3>
 
   <p align="center">
     Консольное приложение Node JS. Приложение генерирует файл в формате JSON из файла форматк CSV.
@@ -193,7 +193,7 @@ Don't forget to give the project a star! Thanks again!
 
 Дмитрий Килин - [@DimitriyKilin](https://twitter.com/DimitryKilin)
 
-Репозиторий проекта: [https://github.com/kildim/csv-to-json](https://github.com/kildim/csv-to-json)
+Репозиторий проекта: [https://github.com/kildim/tsv-converter](https://github.com/kildim/tsv-converter)
 
 <p align="right">(<a href="#readme-top">в начало</a>)</p>
 
@@ -222,16 +222,16 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/kildim/csv-to-json.svg?style=for-the-badge
-[contributors-url]: https://github.com/kildim/csv-to-json/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kildim/csv-to-json.svg?style=for-the-badge
-[forks-url]: https://github.com/kildim/csv-to-json/network/members
-[stars-shield]: https://img.shields.io/github/stars/kildim/csv-to-json.svg?style=for-the-badge
-[stars-url]: https://github.com/kildim/csv-to-json/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kildim/csv-to-json.svg?style=for-the-badge
-[issues-url]: https://img.shields.io/github/issues/kildim/csv-to-json
+[contributors-shield]: https://img.shields.io/github/contributors/kildim/tsv-converter.svg?style=for-the-badge
+[contributors-url]: https://github.com/kildim/tsv-converter/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kildim/tsv-converter.svg?style=for-the-badge
+[forks-url]: https://github.com/kildim/tsv-converter/network/members
+[stars-shield]: https://img.shields.io/github/stars/kildim/tsv-converter.svg?style=for-the-badge
+[stars-url]: https://github.com/kildim/tsv-converter/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kildim/tsv-converter.svg?style=for-the-badge
+[issues-url]: https://img.shields.io/github/issues/kildim/tsv-converter
 [license-shield]: https://img.shields.io/badge/License-ISC-0080c4.svg?style=for-the-badge
-[license-url]: https://github.com/kildim/csv-to-json/blob/master/LICENSE.txt
+[license-url]: https://github.com/kildim/tsv-converter/blob/master/LICENSE.txt
 
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=for-the-badge
