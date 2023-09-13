@@ -63,7 +63,7 @@
       </ul>
     </li>
     <li><a href="#usage">Применение</a></li>
-    <li><a href="#roadmap">План реализации проекта</a></li>
+    <li><a href="#roadmap">План работы над проектом</a></li>
     <li><a href="#contributing">Совместный вклад в проект</a></li>
     <li><a href="#license">Лицензия</a></li>
     <li><a href="#contact">Контакты</a></li>
@@ -82,7 +82,7 @@
 * работа с файловой системой посредством `NodeJS`;
 * конфигурирование экосистемы для создания проектов на `NodeJS`
 
-Целью создания проекта так же является создание кода-песочницы для ознакомления и экспериментов с кодом и реализацией соответствующего функционала.
+Целью создания проекта так же является создание кода-песочницы для ознакомления и экспериментов с кодом, реализующим соответствующий функционал.
 <p align="right">(<a href="#readme-top">в начало</a>)</p>
 
 
@@ -146,15 +146,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## План реализации проекта
+## План работы над проектом
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Реализовано синхронное чтание из TSV файла в кодировке win1251
+- [x] Реализован парсинг содержимого TSV файла в массив объектов JS
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
