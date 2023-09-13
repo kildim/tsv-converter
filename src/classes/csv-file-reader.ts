@@ -10,16 +10,22 @@ class CsvFileReader implements FileReaderInterface {
   private record: RecordType = {};
 
   read(): RecordType[] {
-    const rawData = decode(readFileSync(this.filename),'win1251');
-    let tableKeys: string[] = [];
-    let tableRows: string[][] = [];
-    let table = [];
+    let rawData = readFileSync(this.filename);
 
     if(!rawData) {
       return [];
     }
 
-    table = rawData.split('\r\n').filter((row) => row.trim() !== '').map((row) => row.split('\t'));
+    return this.decodeCp1251(rawData);
+  }
+
+  private decodeCp1251(data: Buffer): RecordType[] {
+    const decodedData = decode(data,'win1251');
+    let tableKeys: string[] = [];
+    let tableRows: string[][] = [];
+    let table = [];
+
+    table = decodedData.split('\r\n').filter((row) => row.trim() !== '').map((row) => row.split('\t'));
     tableKeys = table[0];
     tableRows = table.slice(1);
     return tableRows.map((row) => row.reduce((acc, cell, index) => {
