@@ -30,7 +30,7 @@
   <h3 align="center">TSV Converter</h3>
 
   <p align="center">
-    Консольное приложение Node JS. Приложение генерирует файл в формате JSON из файла симейства форматов CSV.
+    Консольное приложение Node JS. Приложение генерирует файл в формате JSON из файла семейства формата CSV.
     <br />
     <a href="https://github.com/kildim/tsv-converter/tree/readme"><strong>Документация »</strong></a>
     <br />
