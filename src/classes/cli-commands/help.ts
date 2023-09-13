@@ -1,6 +1,6 @@
-import {CliCommandInterface} from '../interfaces/cli-command.interface.js';
+import {CliCommandInterface} from '../../interfaces/cli-command.interface';
 
-class CliCommandHelp implements CliCommandInterface{
+class Help implements CliCommandInterface{
   readonly name: string = '--help';
 
   async execute(): Promise<void> {
@@ -18,4 +18,4 @@ class CliCommandHelp implements CliCommandInterface{
   }
 }
 
-export  default CliCommandHelp;
+export  default Help;

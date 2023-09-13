@@ -1,7 +1,7 @@
 import {readFileSync} from 'fs';
-import {CliCommandInterface} from '../interfaces/cli-command.interface.js';
+import {CliCommandInterface} from '../../interfaces/cli-command.interface';
 
-class CliCommandVersion implements CliCommandInterface{
+class Version implements CliCommandInterface{
   readonly name: string = '--version';
 
   async execute(): Promise<void> {
@@ -17,4 +17,4 @@ class CliCommandVersion implements CliCommandInterface{
   }
 }
 
-export  default CliCommandVersion;
+export  default Version;
