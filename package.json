@@ -1,7 +1,7 @@
 {
-  "name": "csv-to-json",
+  "name": "csv2json",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cli converts tsv format file to json",
   "main": "index.js",
   "type": "module",
   "engines": {
