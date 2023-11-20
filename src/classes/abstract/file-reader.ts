@@ -2,6 +2,7 @@ import {FileReaderInterface} from '../../interfaces/file-reader.interface';
 import {readFileSync} from 'fs';
 import RecordType from '../../types/record-type';
 import {CliCommandInterface} from '../../interfaces/cli-command.interface';
+import {appendFile} from 'fs/promises';
 
 abstract class FileReader implements FileReaderInterface, CliCommandInterface {
   abstract decode(rawData: Buffer): RecordType[];
@@ -17,8 +18,10 @@ abstract class FileReader implements FileReaderInterface, CliCommandInterface {
     return this.decode(rawData);
   }
 
-  execute(filename: string): void {
-    console.log(this.read(filename))
+  async execute(filename: string, targetFilename: string) {
+    const convertedData: RecordType[] = this.read(filename)
+
+    typeof targetFilename === "undefined" ? console.log(convertedData) : await appendFile(targetFilename, JSON.stringify(convertedData), 'utf-8')
   }
 }
 
